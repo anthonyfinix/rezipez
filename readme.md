@@ -11,5 +11,5 @@
 [x] Setup Basic Static Content (React Boiler Plate)
 [x] Setup Heroku and Deploy Basic Setup
 [x] Setup Logger with Winston
-[ ] Setup User Register
+[x] Setup User Register
 [ ] Setup User Authenticate

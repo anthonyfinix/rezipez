@@ -14,7 +14,7 @@ module.exports = joi.object().keys({
     .required(),
 
     password: Joi.string()
-    .regex(/^[a-zA-Z0-9]{3,30}$/)
+    .regex(/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/)
     .required(),
 
     confirmPassword: Joi.any()

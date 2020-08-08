@@ -2,18 +2,24 @@
 GET http://localhost:5000/
 
 ### USER
-GET http://localhost:5000/api/user/login
+POST http://localhost:5000/api/user/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "username":"anthonyfinix",
+    "password":"anthonyfinix@123"
+}
 
 ### REGISTER
 POST http://localhost:5000/api/user/register HTTP/1.1
 content-type: application/json
 
 {
-    "name": "Prince Jacob",
-    "username": "princejacob",
-    "password": "prince",
-    "confirmPassword": "prince",
-    "email": "princejacob@gmail.com"
+    "name": "Anthony Finix",
+    "username": "anthonyfinix",
+    "password": "anthonyfinix@123",
+    "confirmPassword": "anthonyfinix@123",
+    "email": "anthonyfinix@gmail.com"
 }
 
 ### 404
