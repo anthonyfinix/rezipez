@@ -1,6 +1,6 @@
-### Basic Express App
+# Basic Express App
 
-##Todo
+# Todo
 
 [x] setup Express at 5000
 [x] Manage Not Found
@@ -11,4 +11,5 @@
 [x] Setup Basic Static Content (React Boiler Plate)
 [x] Setup Heroku and Deploy Basic Setup
 [x] Setup Logger with Winston
-[ ] Setup User Login
+[ ] Setup User Register
+[ ] Setup User Authenticate
