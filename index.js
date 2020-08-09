@@ -9,9 +9,10 @@ const logger = require('./utils/logger');
 const logIncomingReq = require('./utils/logIncomingRequest');
 const notFound = require("./utils/notfound");
 const errorHandle = require("./utils/errorHandle");
+const cors = require('cors');
 
 const port = 5000;
-
+app.use(cors)
 app.use(express.json());
 app.use(express.static('public'))
 db.init();
