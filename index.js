@@ -12,7 +12,7 @@ const errorHandle = require("./utils/errorHandle");
 const cors = require('cors');
 
 const port = 5000;
-app.use(cors)
+app.use(cors())
 app.use(express.json());
 app.use(express.static('public'))
 db.init();
